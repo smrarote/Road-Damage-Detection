@@ -4,7 +4,7 @@ import pymysql.err
 class DataBase:
     host = 'localhost'
     user = 'root'
-    password = '1/0=Infinity'
+    password = '*****'
     def __init__(self):
         try:
             self.connection = pymysql.connect(host=self.host, user=self.user,
